@@ -19,7 +19,7 @@
   opacity: 1
 }
 
-.overlay {
+.container .overlay {
   height: 100%;
   width: 100%;
   background-color: rgba(0,0,0,0.7);
@@ -28,7 +28,7 @@
   justify-content: flex-end;
 }
 
-.field {
+.container .overlay .field {
   background: white;
   width:100%;
   height: 253px;
@@ -40,7 +40,7 @@
   transition: all 0.5s
 }
 
-.circle {
+.container .overlay .field .circle {
   background: rgba(0,0,0,0.6);
   border-radius: 50%;
   height:60px;
@@ -48,16 +48,16 @@
   margin-bottom: 15px
 }
 
-.icons {
+.container .overlay .field .circle .icons {
   margin: 15px 16px
 }
 
-.item-1 {
+.container .overlay .field .item-1 {
   text-transform: uppercase;
   font-size: 20px
 }
 
-.item-2 {
+.container .overlay .field .item-2 {
   width: 240px;
   font-size: 15px;
   text-align: center;
