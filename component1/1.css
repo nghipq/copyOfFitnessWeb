@@ -63,7 +63,7 @@
   text-align: center;
   text-transform: capitalize;
   opacity: 0;
-  transition: 0.5s
+  transition: 0.5s;
 }
 
 .item-2 a {

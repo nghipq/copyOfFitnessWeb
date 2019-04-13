@@ -1,0 +1,93 @@
+.container-2 {
+    width: 240px;
+    height: 353.05px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .container-2 .overlay {
+    width: 210px;
+    height: 100%;
+    box-shadow: 2px 2px #EEE;
+    margin: 0px 15px;
+    position: relative;
+  }
+  
+  .container-2 .overlay .item1 {
+    width: 100%;
+    height: 247.05px;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .container-2 .overlay .item1 img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s
+  }
+  
+  .container-2:hover .overlay .item1 img {
+    width: 230px;
+    height: 250px;
+    transform: translateX(-60px);
+  }
+  
+  .container-2 .overlay .item1 .content {
+    width: 40px;
+    height: 100%;
+    background: #f63c25;
+    position: absolute;
+    margin-left: 250px;
+    transition: all 0.4s
+  }
+  
+  .container-2:hover .overlay .item1 .content {
+    margin-left: 210px;
+    transform: translateX(-40px)
+  }
+  
+  .container-2 .overlay .item1 .content .list {
+    display: flex;
+    flex-flow: column;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px
+  }
+  
+  .container-2 .overlay .item1 .content .list li {
+    margin-top: 25px
+  }
+  
+  .container-2 .overlay .item1 .content .list a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .container-2 .overlay .info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  .container-2 .overlay .info .name a {
+    color: #1c1c1c;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 0.2s;
+  }
+  
+  .container-2 .overlay .info .job {
+    font-size: 20px;
+    color: #2f2f2f;
+    margin-top: 6px;
+  }
+  
+  .container-2:hover .overlay .info .name a {
+    color: #f63c25
+  }
