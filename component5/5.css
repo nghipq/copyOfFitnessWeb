@@ -1,0 +1,27 @@
+.container-5 {
+    width: 240px;
+    height: 209px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-5 .overlay {
+    width: 210px;
+    height: 100%;
+}
+
+.container-5 .overlay .main {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 25px 0px 15px 0px
+}
+
+.container-5 .overlay .content {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #666565
+}
+
+
