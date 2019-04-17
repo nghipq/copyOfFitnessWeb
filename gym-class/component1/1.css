@@ -1,0 +1,89 @@
+.container-1 {
+    width: 360px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 .img {
+  position: absolute;
+  transition: all 0.8s;
+  width: 110%;
+  height: 110%;
+}
+
+.container-1:hover .img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-1:hover .overlay .field {
+  transform: translateY(-80px)
+}
+
+.container-1:hover .overlay .field .item-2 {
+  opacity: 1
+}
+
+.container-1 .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.container-1 .overlay .field {
+  background: white;
+  width:100%;
+  height: 253px;
+  background-color: rgba(0,0,0,0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: white;
+  transition: all 0.5s
+}
+
+.container-1 .overlay .field .circle {
+  background: rgba(0,0,0,0.6);
+  border-radius: 50%;
+  height:80px;
+  width: 80px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 .overlay .field .item-1 {
+  text-transform: uppercase;
+  font-size: 20px
+}
+
+.container-1 .overlay .field .item-2 {
+  width: 240px;
+  font-size: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.item-2 a {
+  color: white;
+  background: #F20;
+  padding: 20px 15px 0px 15px;
+  border-radius: 50px;
+  transition: all 0.5s
+}
+
+.item-2 a:hover {
+  background: #d31f37;
+  padding: 20px 10px 0px 20px
+}

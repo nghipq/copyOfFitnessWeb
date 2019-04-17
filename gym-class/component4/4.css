@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0);
-    margin-top: -150px
   }
   
   .container-4 .main {
@@ -26,8 +25,9 @@
   }
   
   .container-4 .content {
-    font-size: 28px;
-    text-transform: capitalize;
+    text-align: center;
     color: #5f5f5f;
-    margin-top: 0
+    width: 600px;
+    margin-top: 0;
+    font-size: 20px;
   }

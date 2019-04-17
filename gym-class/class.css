@@ -1,0 +1,25 @@
+.classes {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fffafa;
+    background-image: url("./image/memphis.png");
+    background-repeat: no-repeat;
+    background-position: 1260px 200px
+}
+
+.classes .bg-img-right {
+    position: absolute;
+    transform: translate(-615px, 420px) scale(0.8)
+}
+
+.classes .class-side {
+    width: 1107px;
+    height: 840px;
+    display: grid;
+    grid-template-columns: 377px 377px 377px;
+    align-items: center;
+    margin-bottom: 50px;
+}

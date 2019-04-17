@@ -3,21 +3,21 @@ var list = [
     {
         id: 1,
         name: "stile mark",
-        img: "./testimonial-profile-1.png",
+        img: "./image/testimonial-profile-1.png",
         job: "yoga trainer",
         para: "World is committed to making participa in the event that rassment free experience for every, regardless level of experienc, gender identity.and expression orientation, disability by the personal appearance"
     },
     {
         id: 2,
         name: "david william",
-        img: "./testimonial-profile-2.png",
+        img: "./image/testimonial-profile-2.png",
         job: "yoga trainer",
         para: "World is committed to making participa in the event that rassment free experience for every, regardless level of experienc, gender identity.and expression orientation, disability by the personal appearance"
     },
     {
         id: 3,
         name: "william will",
-        img: "./testimonial-profile-3.png",
+        img: "./image/testimonial-profile-3.png",
         job: "body william trainer",
         para: "World is committed to making participa in the event that rassment free experience for every, regardless level of experienc, gender identity.and expression orientation, disability by the personal appearance"
     },

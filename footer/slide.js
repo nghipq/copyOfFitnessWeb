@@ -1,10 +1,10 @@
 var img = document.getElementById("img");
 var imgList = [
-    "./brand1.png", 
-    "./brand2.png", 
-    "./brand3.png",
-    "./brand4.png",
-    "./brand5.png",
+    "./image/brand1.png", 
+    "./image/brand2.png", 
+    "./image/brand3.png",
+    "./image/brand4.png",
+    "./image/brand5.png",
 ];
 var result = imgList.concat(imgList[0]);
 
