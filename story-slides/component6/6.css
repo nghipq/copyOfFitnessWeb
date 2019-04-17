@@ -9,10 +9,12 @@
     font-size: 20px;
     line-height: 1.8;
     text-align: center;
+    position: relative;
+    font-weight: 900;
 }
 
 .story p {
-    width: 100%;
+    width: 690px;
     height: 94px;
     text-align: center;
 }
@@ -37,8 +39,15 @@
     display: flex;
 }
 
+.story .speaker .circle img {
+    width: 70px;
+    height: 70px;
+}
+
 .story .speaker .info {
-    font-weight: 900
+    font-weight: 900;
+    display: flex;
+    flex-flow: column;
 }
 
 .story .speaker .info .name {
@@ -48,4 +57,5 @@
 .story .speaker .info .job {
     font-size: 14px;
     text-transform: capitalize;
+    text-align: left
 }
