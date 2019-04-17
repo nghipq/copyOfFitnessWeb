@@ -1,0 +1,50 @@
+.story {
+    width: 690px;
+    height: 274px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #4f4f4f;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.story p {
+    width: 100%;
+    height: 94px;
+    text-align: center;
+}
+
+.story .speaker {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.story .speaker .circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.story .speaker .info {
+    font-weight: 900
+}
+
+.story .speaker .info .name {
+    color: #1c1c1c;
+}
+
+.story .speaker .info .job {
+    font-size: 14px
+}
