@@ -1,0 +1,16 @@
+.intro {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+}
+
+.intro .intro-side {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1080px;
+}

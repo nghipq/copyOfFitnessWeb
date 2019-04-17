@@ -1,5 +1,5 @@
 .container-5 {
-    width: 240px;
+    width: 250px;
     height: 209px;
     display: flex;
     flex-flow: column;
@@ -8,8 +8,13 @@
 }
 
 .container-5 .overlay {
-    width: 210px;
+    width: 250px;
     height: 100%;
+}
+
+.container-5 .overlay img {
+    width: 60px;
+    height: 60px;
 }
 
 .container-5 .overlay .main {
@@ -20,7 +25,6 @@
 
 .container-5 .overlay .content {
     font-size: 16px;
-    text-transform: capitalize;
     color: #666565
 }
 
