@@ -1,5 +1,14 @@
+.schedule {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 .time-table {
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-bottom: 80px;
 }
 
 .time-table, th, td {
