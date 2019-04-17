@@ -1,0 +1,15 @@
+.shop {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop .shop-side {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1080px;
+    height: 400px;
+}

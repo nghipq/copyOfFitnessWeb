@@ -49,6 +49,10 @@
     transform: scale(0.5);
     transition: all 0.5s;
   }
+
+  .container-3 .item1 .overlay a:hover {
+    background: #d31f27
+  }
   
   .container-3:hover .item1 .overlay a {
     transform: scale(1);
@@ -88,3 +92,5 @@
   .container-3:hover .item2 a {
     color: #f63c25;
   }
+
+  
