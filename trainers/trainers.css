@@ -1,0 +1,16 @@
+.trainers {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #ffffff
+}
+
+.trainers .trainers-side {
+    display: flex;
+    flex-flow: row;
+    width: 1080px;
+    height: 400px;
+    justify-content: space-between;
+}

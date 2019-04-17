@@ -1,13 +1,13 @@
 .container-2 {
-    width: 240px;
-    height: 353.05px;
+    width: 260px;
+    height: 383.05px;
     position: relative;
     display: flex;
     flex-flow: column;
   }
   
   .container-2 .overlay {
-    width: 210px;
+    width: 240px;
     height: 100%;
     box-shadow: 2px 2px #EEE;
     margin: 0px 15px;
@@ -16,7 +16,7 @@
   
   .container-2 .overlay .item1 {
     width: 100%;
-    height: 247.05px;
+    height: 287.05px;
     display: flex;
     flex-flow: row;
     position: relative;
@@ -32,9 +32,9 @@
   }
   
   .container-2:hover .overlay .item1 img {
-    width: 230px;
-    height: 250px;
-    transform: translateX(-60px);
+    width: 110%;
+    height: 110%;
+    transform: translateX(-40px);
   }
   
   .container-2 .overlay .item1 .content {
@@ -48,7 +48,7 @@
   
   .container-2:hover .overlay .item1 .content {
     margin-left: 210px;
-    transform: translateX(-40px)
+    transform: translateX(-10px)
   }
   
   .container-2 .overlay .item1 .content .list {
@@ -78,7 +78,8 @@
     color: #1c1c1c;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 900;
     transition: all 0.2s;
   }
   
