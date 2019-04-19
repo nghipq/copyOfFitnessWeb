@@ -6,23 +6,23 @@
     width: 100%;
 }
 
-.time-table {
+.schedule .time-table {
     text-transform: uppercase;
     margin-bottom: 80px;
 }
 
-.time-table, th, td {
+.schedule .time-table, th, td {
     border: 1px solid #f1f1f1;
     border-collapse: collapse
 }
 
-th {
+.schedule th {
     background: #f1f1f1;
     width: 94px;
     height: 99px;
 }
 
-.time-table .days th {
+.schedule .time-table .days th {
     width: 135px;
     height: 80px;
     border: 1px solid #f1f1f1;
@@ -31,20 +31,20 @@ th {
     overflow: hidden;
 }
 
-.time-table .days .main {
+.schedule .time-table .days .main {
     color:#fff;
     background: #101010;
     width: 94px;
     height: 80px;
 }
 
-.time-table th {
+.schedule .time-table th {
     width: 94px;
     height: 99px;
     color: #101010;
 }
 
-.time-table .content {
+.schedule .time-table .content {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -54,7 +54,7 @@ th {
     position: relative;
 }
 
-.time-table .content .rise {
+.schedule .time-table .content .rise {
     font-weight: 900;
     font-size: 13px;
     position: absolute;
@@ -69,18 +69,18 @@ th {
     transition: all 0.3s
 }
 
-.time-table .content:hover .rise {
+.schedule .time-table .content:hover .rise {
     transform: translateY(-70px) scale(1);
     opacity: 1;
 }
 
-.time-table .content .time-set {
+.schedule .time-table .content .time-set {
     font-weight: 100;
     font-size: 14px;
     margin-top: 8px;
 }
 
-.time-table .content .name {
+.schedule .time-table .content .name {
     color: #fff;
     font-weight: 800;
     font-size: 14px;
@@ -90,59 +90,59 @@ th {
     text-align: center;
 }
 
-.time-table .content .br-yellow {
+.schedule .time-table .content .br-yellow {
     background: #f2be54;
     border: 1px solid #f2be54
 }
 
-.time-table .content .br-blue {
+.schedule .time-table .content .br-blue {
     background: #4fb99f;
     border: 1px solid #4fb99f
 }
 
-.time-table .content .br-violet {
+.schedule .time-table .content .br-violet {
     background: #bf8cff;
     border: 1px solid #bf8cff
 }
 
-.time-table .content .br-red {
+.schedule .time-table .content .br-red {
     background: #f63c25;
     border: 1px solid #f63c25
 }
 
-.time-table .content .c-yellow {
+.schedule .time-table .content .c-yellow {
     transition: all 0.3s
 }
 
-.time-table .content .c-blue {
+.schedule .time-table .content .c-blue {
     transition: all 0.3s
 }
 
-.time-table .content .c-violet {
+.schedule .time-table .content .c-violet {
     transition: all 0.3s
 }
 
-.time-table .content .c-red {
+.schedule .time-table .content .c-red {
     transition: all 0.3s
 }
 
-.time-table .content:hover .c-yellow {
+.schedule .time-table .content:hover .c-yellow {
     color: #f2be54
 }
 
-.time-table .content:hover .c-blue {
+.schedule .time-table .content:hover .c-blue {
     color: #4fb99f
 }
 
-.time-table .content:hover .c-violet {
+.schedule .time-table .content:hover .c-violet {
     color: #bf8cff
 }
 
-.time-table .content:hover .c-red {
+.schedule .time-table .content:hover .c-red {
     color: #f63c25
 }
 
-.time-table .content:hover {
+.schedule .time-table .content:hover {
     animation-name: move;
     animation-duration: 0.3s;
 }
