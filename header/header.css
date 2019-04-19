@@ -3,7 +3,7 @@
     flex-flow: column;
     justify-content: flex-start;
     width: 100%;
-    background: #fcfcfc;
+    background: #f0eded;
     align-items: center;
     position: relative;
 }
@@ -28,7 +28,6 @@
 }
 
 .header-side .top i .circle {
-    content: "";
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -55,7 +54,7 @@
 
 .header-side .main img {
     animation: img 2s;
-    position: absolute; 
+    /* position: absolute;  */
 }
 
 @keyframes img {
