@@ -66,6 +66,8 @@
     font-size: 250px;
     font-weight: 900;
     position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
 }
 
 .header-side .main .FITN {
@@ -76,8 +78,9 @@
 }
 
 .header-side .main .ESS {
-    transform: translate(260px, -150px);
+    transform: translate(280px, -150px);
     background: -webkit-linear-gradient(90deg, rgba(211,31,55,1) 0%, rgba(246,60,37,1) 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
