@@ -1,5 +1,5 @@
 var div = document.getElementById("story");
-var list = [
+var sList = [
     {
         id: 1,
         name: "stile mark",
@@ -22,8 +22,8 @@ var list = [
         para: "World is committed to making participa in the event that rassment free experience for every, regardless level of experienc, gender identity.and expression orientation, disability by the personal appearance"
     },
 ];
-var result = list.slice(0, 2);
-var x = list.length - 1;
+var result = sList.slice(0, 2);
+var x = sList.length - 1;
 
 function mkList(arr) {
     content = arr.map(function(item) {
@@ -45,7 +45,7 @@ function mkList(arr) {
 function change() {
     setInterval(function() {
         result.shift();
-        result = result.concat(list[x]);
+        result = result.concat(sList[x]);
         mkList(result);
         if(x < 2) {
             x += 1;

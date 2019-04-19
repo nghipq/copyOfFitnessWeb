@@ -24,7 +24,7 @@
     display: flex;
     flex-flow: row;
     align-items: center;
-    animation-name: move;
+    animation-name: slide;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
@@ -38,7 +38,7 @@
     width: 208px;
 }
 
-@keyframes move {
+@keyframes slide {
     0% {transform: translateX(0px)}
     75% {transform: translateX(0px)}
     100% {transform: translateX(-210px)}

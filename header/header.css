@@ -3,7 +3,7 @@
     flex-flow: column;
     justify-content: flex-start;
     width: 100%;
-    background: #f0eded;
+    background: #f8f8f8;
     align-items: center;
     position: relative;
 }
@@ -76,7 +76,7 @@
 }
 
 .header-side .main .ESS {
-    transform: translate(300px, -150px);
+    transform: translate(260px, -150px);
     background: -webkit-linear-gradient(90deg, rgba(211,31,55,1) 0%, rgba(246,60,37,1) 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

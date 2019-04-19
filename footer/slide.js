@@ -6,24 +6,24 @@ var imgList = [
     "./image/brand4.png",
     "./image/brand5.png",
 ];
-var result = imgList.concat(imgList[0]);
+var imgResult = imgList.concat(imgList[0]);
 
-function change() {
+function imgChange() {
     setInterval(function() {
-        result.shift();
-        result = result.concat(result[0]);
-        list(result);
+        imgResult.shift();
+        imgResult = imgResult.concat(imgResult[0]);
+        list(imgResult);
     },3000);
-    return result;
+    return imgResult;
 }
 
-change()
+imgChange()
 
 function list(arr) {
-    content = arr.map(function(item) {
+    imgContent = arr.map(function(item) {
         return "<div class='brand-square'><img src ='" + item + "'></div>"
     });
-    img.innerHTML = content
+    img.innerHTML = imgContent
 }
 
 // list(result)
