@@ -23,10 +23,18 @@
 }
 
 .story-slide .screen {
-    animation: screen 6s
+    -webkit-animation: screen 6s forwards;
+    animation: screen 6s forwards;
 }
 
 @-webkit-keyframes screen {
+    0% {opacity: 1; transform: translateX(690px)}
+    5% {opacity: 1; transform: translateX(0px)}
+    95% {opacity: 1; transform: translateX(0px)}
+    100% {opacity: 1; transform: translateX(-690px)}
+}
+
+@keyframes screen {
     0% {opacity: 1; transform: translateX(690px)}
     5% {opacity: 1; transform: translateX(0px)}
     95% {opacity: 1; transform: translateX(0px)}

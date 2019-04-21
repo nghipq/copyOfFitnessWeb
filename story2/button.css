@@ -20,20 +20,21 @@
 }
 
 .active {
+    -webkit-animation: fade 6s forwards;
     animation: fade 6s forwards;
 }
 
 @-webkit-keyframes fade {
     0% {opacity: 0.5; width: 5px; border-radius: 50%}
-    10% {opacity: 1; width: 20px; border-radius: 200px}
-    90% {opacity: 1; width: 20px; border-radius: 200px}
+    5% {opacity: 1; width: 20px; border-radius: 200px}
+    95% {opacity: 1; width: 20px; border-radius: 200px}
     100% {opacity: 0.5; width: 5px; border-radius: 50%}
 }
 
 @keyframes fade {
     0% {opacity: 0.5; width: 5px; border-radius: 50%}
-    10% {opacity: 1; width: 20px; border-radius: 200px}
-    90% {opacity: 1; width: 20px; border-radius: 200px}
+    5% {opacity: 1; width: 20px; border-radius: 200px}
+    95% {opacity: 1; width: 20px; border-radius: 200px}
     100% {opacity: 0.5; width: 5px; border-radius: 50%}
 }
 
