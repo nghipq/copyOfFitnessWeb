@@ -1,0 +1,39 @@
+.button-container {
+    width: 50px;
+    height: 5px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #f63c25;
+    border-radius: 200px;
+    margin-top: 50px
+}
+
+.button-container .button {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #f63c25;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.active {
+    animation: fade 6s forwards;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0.5; width: 5px; border-radius: 50%}
+    10% {opacity: 1; width: 20px; border-radius: 200px}
+    90% {opacity: 1; width: 20px; border-radius: 200px}
+    100% {opacity: 0.5; width: 5px; border-radius: 50%}
+}
+
+@keyframes fade {
+    0% {opacity: 0.5; width: 5px; border-radius: 50%}
+    10% {opacity: 1; width: 20px; border-radius: 200px}
+    90% {opacity: 1; width: 20px; border-radius: 200px}
+    100% {opacity: 0.5; width: 5px; border-radius: 50%}
+}
+
