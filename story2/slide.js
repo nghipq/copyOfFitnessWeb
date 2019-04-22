@@ -1,23 +1,20 @@
 var index = 0;
-changeClass(index);
+changeClass();
 
-function changeClass(index) {
-    var buttons = document.getElementsByClassName("button");
+function changeClass() {
+    var i;
     var slides = document.getElementsByClassName("story");
-    setInterval(function() {
-        var i;
-        index += 1;
-        if(index > buttons.length) {
-            index = 1
-        };
-        buttons[index - 1].classList.add("active");
-        slides[index - 1].classList.add("screen");
-        i = index - 2;
-        if(i < 0) {
-            i = buttons.length - 1
-        }
-        buttons[i].classList.remove("active");
-        slides[i].classList.remove("screen");
-    }, 6000)
+    var buttons = document.getElementsByClassName("button");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].className = slides[i].className.replace(" screen", "")  
+    }
+    index++;
+    if (index > slides.length) {index = 1}    
+    for (i = 0; i < buttons.length; i++) {
+      buttons[i].className = buttons[i].className.replace(" active", "");
+    }
+    slides[index-1].className += " screen"  
+    buttons[index-1].className += " active";
+    setTimeout(changeClass, 6000);
 }
 

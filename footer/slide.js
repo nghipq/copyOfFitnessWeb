@@ -23,7 +23,7 @@ function list(arr) {
     imgContent = arr.map(function(item) {
         return "<div class='brand-square'><img src ='" + item + "'></div>"
     });
-    img.innerHTML = imgContent
+    img.innerHTML = imgContent;
 }
 
 // list(result)
