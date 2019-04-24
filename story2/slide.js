@@ -13,7 +13,7 @@ function changeClass() {
     for (i = 0; i < buttons.length; i++) {
       buttons[i].className = buttons[i].className.replace(" active", "");
     }
-    slides[index-1].className += " screen"  
+    slides[index-1].className += " screen";  
     buttons[index-1].className += " active";
     setTimeout(changeClass, 6000);
 }
