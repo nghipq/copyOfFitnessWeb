@@ -41,7 +41,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 200px;
-    animation: s-down 3s forwards;
+    animation: s-down 2s forwards;
 }
 
 .before .search-place input {
@@ -126,14 +126,14 @@
 }
 
 @-webkit-keyframes s-down {
-    0% {transform: translateY(-400px);};
-    95% {transform: translateY(-400px);};
+    0% {transform: translateY(-800px);};
+    50% {transform: translateY(-800px);};
     100% {transform: translateY(0);};
 }
 
 @keyframes s-down {
-    0% {transform: translateY(-400px);};
-    95% {transform: translateY(-400px);};
+    0% {transform: translateY(-800px);};
+    50% {transform: translateY(-800px);};
     100% {transform: translateY(0);};
 }
 
